@@ -1,0 +1,23 @@
+1.	Write JAVA program, which will print all odd numbers between 0 and 9, 20 and 29, 40 and 49, … , 80 and 89 and all even numbers between 10 and 19, 30 and 39, … , 90 and 99. [Conditional Statement]
+
+2.	Write JAVA program which reads n numbers and finds their sum e.g if n is 5 and given numbers are 33, 100, 77, 42 and 12 then output is 33+100+77+42+12=264. [Loop]
+
+3.	Write JAVA program to print the second digit. e.g. input 23516 the output is 3. [Loop]
+
+4.	Write JAVA program to print positional values of digits. Input 21463 output 3, 60, 400, 1000 and 20000. [Loop]
+
+5.	Write JAVA programs read n and n numbers and find their maximum e.g  if n=5 and given numbers are 32, 100, 77,  83 and 12 then output is 100 [Arrays, Loops, Decision Statement]
+
+6.	Write JAVA program to find the sum of all numbers except the maximum number. Assume that the maximum number is present only once. Do not use subtraction. [Arrays, Loops, Decision Statement]
+
+7.	Write JAVA program, which finds the number with maximum sum of digits. e.g. if numbers are 325, 199, 800 then answer is 199. [Arrays, Loops, Decision Statement]
+
+8.	Write JAVA program, which reads a number and deletes the maximum digit. Assume that all digits in the number are distinct. e.g. input 237436 output 23436. [Arrays, Loops, Decision Statement]
+
+9.	Write JAVA program, which find the sum of first digits e.g. if n=5 and given numbers are 33, 100, 77,  42 and 12 then output is 3+1+7+4+1=16. [First digit] [Nested Loop]
+
+10.	Write JAVA program, which finds sum of those numbers whose first digit is 1. (in above case 100+12=112) [First digit to be 1 from 33, 100, 77,  42 and 12] [Nested Loop]
+
+11.	Write JAVA program, which finds sum of numbers after deleting first digit. (in above case 3+00+7+2+2=14). [delete first digit from 33, 100, 77,  42 and 12] [Nested Loop]
+
+12.	Write JAVA program, which finds the sum of numbers after reversing. (in above case 33+001+77+24+21=156). [reverse of 33, 100, 77,  42 and 12] [Nested Loop]
