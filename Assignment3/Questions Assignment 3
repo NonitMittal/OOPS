@@ -1,0 +1,37 @@
+	1.	Define float area(point a, point b, point c). It finds area of triangle ABC. [Find direction corresponding to AB and AC. 
+		Now call cross product and magnitude]. Area of the triangle with end points (3,4,5), (7,3,6) and (6,2,3) is 6.36.
+		
+	2.	Write program, which reads two lines and finds the point of intersection. To accomplish it define a function point intersection 
+		(line g, line h). e.g. Input 2x+3y-26=0 and 4x+7y-54=0 output (10,2).
+		
+	3.	Write program, which reads four points and finds the point of intersection of the line joining first two points and the last two points. 
+		Let input points be (4,6), (-2,10), (10,2) and (3,6) then the point of intersection is (10,2). [Hint: use above functions]
+		
+	4.	Define function float distance (point p, line l). Using it write program, which reads a point and a line.
+		The program, finds the distance of the point ‘p’ from the line ‘l’. e.g. input point (2,3) and 
+		line 8x+6y-12=0 distance = (8*2+6*3-12)/(82+62)1/2 = 2.2.
+		
+	5.	Write program, which reads three points and finds the distance of first point from the line joining other two points. 
+		[Hint: use functions to find equation and distance]
+
+Define  class circle {point c;float r;}; c is the center and r is radius.
+	6.	void print(circle x). It prints the equation of the circle. Let x be a circle whose centre is (2,3) and radius is 7. 
+		Call to a function circle(x) will output x2+y2-4x-6y-36=0. It is because (x-2)2+(y-3)2=72 is the equation of the circle. 
+		
+	7.	circle form(float g,float h,float k). x=form(-4,-6,-36) will make a circle whose centre is (2,3) and radius is 7.
+	
+	8.	float chord length(circle a,line b). It returns the length of the chord corresponding to circle ‘a’ and line ‘b’.
+		If a circle has centre (1,2) and radius 5 and the line is 5x+12y+10=0 then chord length is 8.
+		[Method: find distance (d) between centre and line by using appropriate function call now use (r2-d2)1/2.] 
+		Assume that the line intersects with the circle.
+		
+	9.	float intersection(circle a, float b). It returns the y-coordinate of point of intersection of circle (s) and line (x=b). 
+		Let a circle (s) has centre (7,2) and radius 5. y=intersection(s,10) will make y as 6 (or -2). 
+		It is because circle (x-7)2+(y-2)2=52 intersects with the line x=10 at points (10,6) and (10,-2).
+		
+	10.	Write program, which reads a number and finds (sum of digits) smallest factor. If number is 455 then output is 145. 
+		[Sum of digits, smallest factor, power] 
+		
+	11.	Define function  int join(int x, int y). It joins numbers x and y. join(273,4167) returns 2734167.
+	
+	12.	Define function  int replace(int x, int y). The first digit of the number is replaced by y. replace(27349,5) returns 57349.
